@@ -66,6 +66,7 @@ h1 {
 .navbar-brand {
     color: #007bff; /* Cor do texto "Eventify" */
     font-weight: bold;
+    font-size: xx-large;
     margin-left: 56px; /* Afaste 2 cm (56 pixels) para a direita */
 }
 /* Estilos para tornar o site responsivo */
