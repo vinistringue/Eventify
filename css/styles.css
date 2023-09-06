@@ -1,0 +1,81 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para a barra de navegação */
+.navbar {
+    background-color: #343a40; /* Cor de fundo */
+}
+
+.navbar-brand {
+    color: #ffffff; /* Cor do texto */
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff; /* Cor do ícone do menu hamburguer */
+}
+
+.nav-link {
+    color: #ffffff; /* Cor dos links da barra de navegação */
+}
+
+/* Estilos para o cabeçalho da página */
+h1 {
+    color: #343a40; /* Cor do título */
+}
+
+/* Estilos para os campos do formulário */
+.form-label {
+    font-weight: bold;
+}
+
+/* Estilos para os botões */
+.btn-primary {
+    background-color: #343a40; /* Cor de fundo do botão "Cadastrar" */
+    border-color: #343a40; /* Cor da borda do botão "Cadastrar" */
+    color: #ffffff; /* Cor do texto do botão "Cadastrar" */
+}
+
+/* Estilos para os campos de formulário */
+.form-control {
+    border-color: #343a40; /* Cor da borda dos campos de formulário */
+}
+
+/* Estilos para o menu suspenso de categoria */
+.form-select {
+    border-color: #343a40; /* Cor da borda do menu suspenso de categoria */
+}
+
+/* Estilos para os botões de navegação no canto direito */
+.text-end a {
+    margin-left: 10px; /* Espaçamento entre os botões */
+}
+/* Estilos para a logo */
+.logo {
+    max-width: 40px; /* Largura máxima da logo */
+    margin-left: 10px; /* Espaçamento à esquerda da logo */
+}
+
+/* Estilos para a cor dos links */
+.nav-link {
+    color: #007bff; /* Cor dos links */
+}
+/* Estilos para a logo e o texto "Eventify" */
+.navbar-brand {
+    color: #007bff; /* Cor do texto "Eventify" */
+    font-weight: bold;
+    margin-left: 56px; /* Afaste 2 cm (56 pixels) para a direita */
+}
+/* Estilos para tornar o site responsivo */
+@media (max-width: 768px) {
+    .text-end {
+        text-align: center; /* Centralizar os botões no centro da página em telas menores */
+        margin-top: 10px; /* Espaçamento superior */
+    }
+    .text-end a {
+        display: block; /* Tornar os botões em blocos para ocupar a largura total da tela */
+        margin: 5px auto; /* Espaçamento entre os botões e centralizar */
+    }
+}

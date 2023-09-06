@@ -1,6 +1,6 @@
-# EVENTIFY - SISTEMA DE CADASTRO DE EVENTOS
+## EVENTIFY - SISTEMA DE CADASTRO DE EVENTOS
 
- EVENTIFY - SISTEMA DE CADASTRO DE EVENTOS (EM DESENVOLVIMENTO)
+ ***EVENTIFY - SISTEMA DE CADASTRO DE EVENTOS (EM DESENVOLVIMENTO)**
 
 ### **APRESENTAÇÃO**
 
@@ -24,12 +24,10 @@
 
 ### FUNCIONALIDADES DO SISTEMA (REQUISITOS)
 
--  **Cadastro de Eventos:** Permitir que os usuários criem e cadastrem eventos, fornecendo informações como título, descrição, data, horário, localização, categoria do evento, entre outros.
+- **Cadastro de Eventos:** Permitir que os usuários criem e cadastrem eventos, fornecendo informações como título, descrição, data, horário, localização, categoria do evento, entre outros.
 
 - **Visualização de Eventos:** Mostrar uma lista de eventos cadastrados, permitindo que os usuários visualizem os detalhes de cada evento de forma clara e organizada.
 
 - **Edição de Eventos:** Possibilitar que os organizadores possam editar as informações dos eventos após o cadastro, permitindo correções ou atualizações necessárias.
 
 - **Exclusão de Eventos:** Permitir que os organizadores excluam eventos que não serão mais realizados ou que foram cadastrados erroneamente.
-
-
