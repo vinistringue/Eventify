@@ -59,3 +59,33 @@ function cadastrarEvento(event) {
   const formularioCadastro = document.getElementById('cadastro-form');
   formularioCadastro.addEventListener('submit', cadastrarEvento);
   
+  document.addEventListener('DOMContentLoaded', function () {
+    const form = document.querySelector('form');
+    const mensagem = document.getElementById('mensagem');
+  
+    form.addEventListener('submit', function (e) {
+      e.preventDefault(); // Impede o envio padrão do formulário
+  
+      // Obter valores dos campos
+      const titulo = document.getElementById('titulo').value;
+      const descricao = document.getElementById('descricao').value;
+      const data = document.getElementById('data').value;
+      const hora = document.getElementById('hora').value;
+      const localizacao = document.getElementById('localizacao').value;
+      const categoria = document.getElementById('categoria').value;
+  
+      // Verificar se todos os campos estão preenchidos
+      if (titulo && descricao && data && hora && localizacao && categoria !== '1') {
+        // Exibir mensagem de sucesso
+        mensagem.innerText = 'Evento cadastrado com sucesso!';
+        mensagem.classList.add('alert-success');
+        mensagem.style.display = 'block';
+  
+        // Aguardar 2 segundos e ocultar a mensagem de sucesso
+        setTimeout(function () {
+          mensagem.style.display = 'none';
+        }, 2000);
+      }
+    });
+  });
+  
